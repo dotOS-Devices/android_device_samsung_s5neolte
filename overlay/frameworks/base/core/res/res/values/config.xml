@@ -47,6 +47,12 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
+    <!-- Touchkey light -->  
+    <bool name="config_button_brightness_support">true</bool>
+
+    <!-- Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>	
+
     <!-- ComponentName of a dream to show whenever the system would otherwise have
          gone to sleep.  When the PowerManager is asked to go to sleep, it will instead
          try to start this dream if possible.  The dream should typically call startDozing()
